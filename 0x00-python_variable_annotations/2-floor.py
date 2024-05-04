@@ -1,12 +1,5 @@
-#!/usr/bin/env python3 
-def to_str(n: float) -> str:
-    """
-    Takes a float n as argument and returns the string representation of the float.
+#!/usr/bin/env python3
+import math
 
-    Args:
-        n (float): A float number.
-
-    Returns:
-        str: The string representation of the float n.
-    """
-    return str(n)
+def floor(n: float) -> int:
+    return math.floor(n)
