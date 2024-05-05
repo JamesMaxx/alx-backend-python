@@ -1,13 +1,22 @@
 #!/usr/bin/env python3
-"""This module adds two floating-point numbers."""
 def add(a: float, b: float) -> float:
-    """Returns the sum of two floating-point numbers.
+    """Adds two numbers together.
 
-    Args:
-        a (float): The first number to add.
-        b (float): The second number to add.
+    This function takes in two numbers (a and b) as inputs and returns
+    their sum.
 
-    Returns:
-        float: The sum of the two numbers.
+    Parameters
+    ----------
+    a : float
+        The first number to add.
+    b : float
+        The second number to add.
+ar
+
+    Returns
+    -------
+    float
+        The sum of a and b.
+
     """
     return a + b
