@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-import math
+'''Rounds a number down to its nearest integer and returns it as an int.
+'''
 
-def floor(n: float) -> int:
-    return math.floor(n)
+
+def floor(a: float) -> int:
+    '''Computes the floor of a floating-point number.
+    '''
+    return int(a)
