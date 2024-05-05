@@ -9,7 +9,7 @@ b : float
     The second number to add.
 
     Returns
-    -------
+
     float
         The sum of a and b.
 
