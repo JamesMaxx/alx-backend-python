@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''measure_time function with integers n and max_delay as arguments that measures 
-the total execution time for wait_n(n, max_delay), and returns total_time / n.
+    the total execution time for wait_n(n, max_delay), and returns total_time / n.
 '''
 import asyncio
 import time
