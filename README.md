@@ -11,7 +11,8 @@ The types of `a` and `b` are not known at build-time, only when `a` and `b` are 
 
 > > > fn("a", 1)
 > > > Traceback (most recent call last):
-> > > File "<stdin>", line 1, in <module>
+> > > File 'stdin', line 1, in 'module'
+> > > TypeError: unsupported operand type(s) for +: 'str' and 'int'
 > > > TypeError: can only concatenate str (not "int") to str
 
 In Python 3, type annotations do not change this. Python is still a dynamically-typed language. Type annotations serve the following purpose:
