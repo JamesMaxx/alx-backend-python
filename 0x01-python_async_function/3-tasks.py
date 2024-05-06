@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-'''Task 3's module.
+'''task_wait_random that takes an integer max_delay and returns a asyncio.Task
 '''
 import asyncio
 
