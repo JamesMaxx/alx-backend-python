@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""
-Module containing an asynchronous generator function
-"""
+
 import asyncio
 import random
 from typing import AsyncIterator
