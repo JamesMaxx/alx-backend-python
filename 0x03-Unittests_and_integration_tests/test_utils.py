@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-""" Test utils
+"""
+This module contains utility functions for testing.
 """
 import unittest
 from unittest.mock import patch
